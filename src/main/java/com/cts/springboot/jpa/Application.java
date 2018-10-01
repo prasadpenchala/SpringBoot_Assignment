@@ -64,7 +64,7 @@ public class Application {
 		return bookService.saveSubject(javaSubject);
 	}
 	
-	public Book getPerson(Book book){
+	public Book getBook(Book book){
 		return bookService.getBook(book.getBookid());
 	}
 }
